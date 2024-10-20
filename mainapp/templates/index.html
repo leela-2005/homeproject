@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - SANDHYA SOIL INFRA SERVICES</title>
+    {% load static %}  <!-- Load static files for CSS or images -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1><marquee>SANDHYA SOIL INFRA SERVICES</marquee></h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'services' %}">Services</a></li>
+                <li><a href="{% url 'about_us' %}">About Us</a></li>
+                <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Precision Soil Testing for Safe & Durable Construction</h2>
+            <p>We ensure your foundation is built on reliable soil data for long-lasting structures.</p>
+            <a href="{% url 'services' %}" class="btn secondary">View Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Our Testing Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Soil Composition Testing</h3>
+                    <p>Ensure the right composition for strong construction foundations.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Load-Bearing Capacity</h3>
+                    <p>Analyze your soil's ability to bear heavy structures.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Compaction Testing</h3>
+                    <p>Make sure your soil meets necessary compaction standards for construction.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Moisture Content Analysis</h3>
+                    <p>Prevent foundational issues by monitoring moisture content.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Geotechnical Reports</h3>
+                    <p>Get detailed engineering reports for informed construction decisions.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Foundation Recommendations</h3>
+                    <p>Receive expert recommendations for the best foundation type for your soil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>Step 1: Site Visit & Sample Collection</h3>
+                    <p>Our team will visit your site to collect soil samples.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 2: Lab Testing & Analysis</h3>
+                    <p>We conduct detailed testing to analyze soil composition and strength.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 3: Report & Foundation Recommendations</h3>
+                    <p>Receive detailed reports with actionable recommendations for your construction site.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>Phone: 9704069563, 9848149370 | Email: soiltestsuresh@gmail.com</p> 
+                <p>Address: MUSTABAD, GANNAVARAM (MANDAL), KRISHNA (DIST), ANDHRA PRADESH, INDIA</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

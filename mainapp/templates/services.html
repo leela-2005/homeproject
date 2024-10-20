@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Soil Test Company</title>
+    {% load static %}  <!-- This loads static files -->
+    <link rel="stylesheet" href="{% static 'css/style3.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'services' %}">Services</a></li>
+                <li><a href="{% url 'about_us' %}">About Us</a></li>
+                <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Our Services</h1>
+        <ul>
+            <li>Soil Composition Testing</li>
+            <li>Geotechnical Investigation</li>
+            <li>Environmental Soil Analysis</li>
+            <li>Soil Moisture and Density Testing</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Soil Test Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

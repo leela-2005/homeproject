@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center the navigation items */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding */
+    background-color: #007BFF; /* Button background */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Services Section */
+section {
+    padding: 50px;
+    text-align: center; /* Center text in the section */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Larger font size for the heading */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    background: #007BFF; /* Button-like background for service items */
+    color: white; /* White text */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+ul li:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

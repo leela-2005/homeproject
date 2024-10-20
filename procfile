@@ -1,0 +1,1 @@
+web: gunicorn soil-test-company1.wsgi --logfile -
